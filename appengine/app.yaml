@@ -1,0 +1,8 @@
+runtime: go111
+
+handlers:
+- url: /static
+  static_files: static/
+  upload: static/
+- url: /..*
+  script: auto
